@@ -56,7 +56,7 @@ export default function Home() {
           <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-md">
             <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
               <div>
-                <h3 className="text-2xl font-semibold text-blue-600 dark:text-blue-400">Communications Security Establishment Canada</h3>
+                <h3 className="text-2xl font-semibold text-blue-600 dark:text-blue-400">Government of Canada (National Defence)</h3>
                 <p className="text-lg font-medium">Software Developer Co-op</p>
               </div>
               <div className="text-gray-600 dark:text-gray-400 mt-2 md:mt-0">
@@ -167,12 +167,12 @@ export default function Home() {
             <div className="p-6">
               <h3 className="text-xl font-semibold mb-2">Social Distribution</h3>
               <p className="text-gray-600 dark:text-gray-400 mb-4">
-                A full-stack social networking application with customizable profiles, interactive posts, and user relationships.
+                A full-stack social networking application with customizable profiles, interactive posts, and user follow/friend relationships.
               </p>
               <ul className="list-disc list-outside ml-5 space-y-2 text-gray-600 dark:text-gray-400 mb-4">
                 <li>Built a full-stack social networking application using Python (Django) and JavaScript (React)</li>
-                <li>Designed and implemented the notification page UI and RESTful API endpoints</li>
-                <li>Developed backend unit tests for post creation and follow/friend user interactions</li>
+                <li>Designed and implemented the UI and RESTful API endpoints for the notification page, post creation, and follow/friend user interactions</li>
+                <li>Developed backend unit tests</li>
               </ul>
               <div className="flex flex-wrap gap-2 mb-4">
                 <span className="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-300 rounded-full text-sm">
@@ -207,12 +207,12 @@ export default function Home() {
             <div className="p-6">
               <h3 className="text-xl font-semibold mb-2">DailyToDo</h3>
               <p className="text-gray-600 dark:text-gray-400 mb-4">
-                A full-stack daily planner web application enabling users to create, track, and manage daily tasks with account-based persistence.
+                A full-stack daily planner web application enabling users to create, track, and manage daily tasks with account-based data persistence.
               </p>
               <ul className="list-disc list-outside ml-5 space-y-2 text-gray-600 dark:text-gray-400 mb-4">
                 <li>Developed a full-stack daily planner using React and Django</li>
                 <li>Implemented user authentication and task completion tracking</li>
-                <li>Created a clean, intuitive UI to promote productivity through positive reinforcement</li>
+                <li>Utilized reward signals to promote productivity through positive reinforcement</li>
               </ul>
               <div className="flex flex-wrap gap-2 mb-4">
                 <span className="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-300 rounded-full text-sm">
@@ -247,9 +247,9 @@ export default function Home() {
                 A single-page web application that predicts and displays the likely nationalities of user-inputted names in real time.
               </p>
               <ul className="list-disc list-outside ml-5 space-y-2 text-gray-600 dark:text-gray-400 mb-4">
-                <li>Built a single-page web application using JavaScript (React) that integrates with the nationalize.io API</li>
+                <li>Built a JavaScript (React) web application that integrates with the nationalize.io API</li>
                 <li>Designed and implemented a responsive UI with dynamic rendering based on API responses</li>
-                <li>Handled asynchronous data fetching and error states using React hooks</li>
+                <li>Handled asynchronous data fetching using React hooks</li>
               </ul>
               <div className="flex flex-wrap gap-2 mb-4">
                 <span className="px-3 py-1 bg-yellow-100 dark:bg-yellow-900 text-yellow-600 dark:text-yellow-300 rounded-full text-sm">
@@ -286,7 +286,7 @@ export default function Home() {
               <ul className="list-disc list-outside ml-5 space-y-2 text-gray-600 dark:text-gray-400 mb-4">
                 <li>Engineered an Android application in Java (Android Studio) for crowdsourced scientific experiments</li>
                 <li>Designed and implemented experiment-specific QR code generation and scanning</li>
-                <li>Developed key GUI components for user interaction</li>
+                <li>Contributed to application architecture and design</li>
               </ul>
               <div className="flex flex-wrap gap-2 mb-4">
                 <span className="px-3 py-1 bg-orange-100 dark:bg-orange-900 text-orange-600 dark:text-orange-300 rounded-full text-sm">
