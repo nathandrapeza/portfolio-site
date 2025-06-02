@@ -42,7 +42,7 @@ export default function Home() {
               </div>
             </div>
             <ul className="list-disc list-outside ml-5 space-y-2 text-gray-600 dark:text-gray-400">
-              <li>Built and deployed a TypeScript (Next.js/React) internal web app with Docker to streamline employee management, project oversight, and client relationship tracking.</li>
+              <li>Developed and containerized a TypeScript-based internal web application (Next.js/React) using Docker, enabling efficient employee management, project tracking, and client relationship oversight.</li>
               <li>Engineered various Python PySide and Tkinter desktop applications, and developed a comprehensive back-end Flask system.</li>
               <li>Upgraded SaaP application from Python 2 to Python 3, doubling data processing speed on average, and enabling compatibility with modern libraries.</li>
               <li>Designed and implemented a MySQL database update, backup, and change tracking system.</li>
